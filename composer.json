@@ -1,0 +1,21 @@
+{
+    "name": "knecht-works/test-wordpress",
+    "description": "A DDEV-based WordPress project used as an e2e test fixture for Knecht.",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://knecht.works",
+    "require": {
+        "roots/wordpress": "^7.1"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "roots/wordpress-core-installer": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "wordpress-install-dir": "web/wp"
+    }
+}
